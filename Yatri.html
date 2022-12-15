@@ -1,0 +1,56 @@
+<!-- 
+This is a Booking Platform For Railway Reservation Service
+Data we need from users: Source Name, Destination Name, Date of Travel
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Your Seat</title>
+ </head>
+ <body>
+    <form>
+        <center>
+            <h1>Book Your Train & Enjoy Your Seamless Journey!!!</h1>
+
+            Source Name: 
+            <input list="source_name" name="source_name" placeholder="Search" required size="28">
+            <datalist id="source_name">
+            <option hidden>Select Source Station</option>
+            <option>Mumbai</option>
+            <option>Bangalore</option>
+            <option>Chennai</option>
+            <option>Hyderabad</option>
+            <option>New Delhi</option>
+            <option>Jaipur</option>
+            <option>Ahmedabad</option>
+            <option>Surat</option>
+            <option>Mangalore</option>
+            </datalist><br><br>
+
+            Destination Name : 
+            <input list="dest_name" name="destination_name" placeholder="Search" required size="23">
+            <datalist id="dest_name">
+            <option hidden>Select Source Station</option>
+            <option>Mumbai</option>
+            <option>Bangalore</option>
+            <option>Chennai</option>
+            <option>Hyderabad</option>
+            <option>New Delhi</option>
+            <option>Jaipur</option>
+            <option>Ahmedabad</option>
+            <option>Surat</option>
+            <option>Mangalore</option>
+            </datalist><br><br>
+
+            Select Journey Date : 
+            <input type="datetime-local" name="date"><br><br>
+
+            <button>Confirm Booking</button>
+        </center>
+    </form>
+ </body>
+ </html>
